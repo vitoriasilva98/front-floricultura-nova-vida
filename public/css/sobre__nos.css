@@ -1,0 +1,44 @@
+.sobre__nos {
+    display: flex;
+    font-family: var(--font-noto-sans);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.sobre__nos_missao {
+    font-style: italic;
+    font-weight: 700;
+    margin: 1rem 0;
+    line-height: 35px;
+}
+
+.sobre__nos_localizada {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.sobre__nos_lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.sobre__nos_diferenciais p{
+    max-width: 350px;
+
+    /* box-sizing: border-box; */
+
+    
+
+    padding: 2rem 0 2rem 5rem;
+}
+
+.sobre__nos_flor {
+    background-image: url(../img/vantagem-flor-de-lotus.png);
+    text-align: center;
+    background-position: top 1.25rem left 2.5rem;
+}

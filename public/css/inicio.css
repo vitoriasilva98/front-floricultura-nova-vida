@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    background: var(--azul-marinho-mobile);
+    color: var(--branco);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid var(--barra-mobile);
+    /* position: absolute; */
+}
+
+.inicio__logo{
+    vertical-align: middle;
+    margin: 2.5rem 0;
+}
+
+.inicio__logo_h1 {
+    font-family: var(--font-lobster);
+    font-size: 1.5rem;
+    display: inline;
+}
+
+.inicio__logo_img{
+    width: 1.5rem;
+    margin-left: 5px;
+}
+
+.inicio__navegacao {
+    text-align: center;
+}
+
+.inicio__link {
+    font-family: var(--font-noto-sans);
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+@media screen and (max-width: 287px) {
+    .inicio__logo_img{
+        width: 1.2rem;
+    }
+
+    .inicio__logo_h1 {
+        font-size: 1.2rem;
+    }
+}
