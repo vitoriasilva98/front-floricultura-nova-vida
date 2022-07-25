@@ -7,7 +7,7 @@
     --amarelo-sombra: rgba(195, 161, 41, 0.8);
     --verde-agua: #368476;
     --azul-marinho-mobile:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #36405F;
-    --sessao-vatangem-mobile: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #36405F;
+    --sessao-diferenciais-mobile: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #36405F;
     --gradiente-contato: linear-gradient(180deg, #FFFFFF 0%, #36405F 99.12%);
     
     --font-lobster: 'Lobster', cursive;
@@ -24,6 +24,11 @@
     margin: 2.2rem 0 1.5rem 0;
     border-radius: 7px;
     color: var(--azul-marinho-envelhecido);
+    text-align: center;
+}
+
+section:nth-child(5) .titulo_amarelo:nth-child(1){
+    color: var(--branco);
 }
 
 .titulo_amarelo hr {

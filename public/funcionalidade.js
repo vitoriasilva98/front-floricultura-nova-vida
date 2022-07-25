@@ -13,9 +13,3 @@ function contagem() {
         indice = 0;
     }
 }
-
-
-
-
-
-

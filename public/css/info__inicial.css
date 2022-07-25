@@ -25,6 +25,7 @@
     line-height: 21px;
     font-style: normal;
     margin: 1.2rem auto 1.7rem;
+    max-width: 420px;
 }
 
 .info__inicial_botao {

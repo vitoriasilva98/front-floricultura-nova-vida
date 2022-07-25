@@ -18,27 +18,25 @@
     margin-bottom: 2rem;
     font-weight: 400;
     line-height: 23px;
+    max-width: 470px;
 }
 
 .sobre__nos_lista {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-evenly; */
 }
 
 .sobre__nos_diferenciais p{
-    max-width: 350px;
-
-    /* box-sizing: border-box; */
-
-    
-
-    padding: 2rem 0 2rem 5rem;
+    line-height: 23px;
+    padding-top: 2rem;
+    max-width: 470px;
 }
 
 .sobre__nos_flor {
-    background-image: url(../img/vantagem-flor-de-lotus.png);
-    text-align: center;
-    background-position: top 1.25rem left 2.5rem;
+    background-image: url(../img/diferenciais-flor-de-lotus.png);
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    margin: 1.5rem;
 }

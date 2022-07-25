@@ -1,0 +1,37 @@
+.diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--sessao-diferenciais-mobile);
+    color: var(--branco);
+    font-family: var(--font-noto-sans);
+    padding-bottom: 1.5rem;
+}
+
+.diferenciais__bolinha {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background: var(--verde-agua);
+    margin-bottom: 0.7rem;
+}
+
+.diferenciais__icone {
+    width: 70px;
+    margin: 2.5rem auto;
+}
+
+.diferenciais__numeros {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.diferenciais__descricao {
+    max-width: 70px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
