@@ -1,0 +1,92 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--gradiente-contato);
+    font-family: var(--font-noto-sans);
+}
+
+.contato__info_form {
+    font-size: 0.9rem;
+    max-width: 470px;
+    padding-bottom: 2rem;
+}
+
+.contato__caixa_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 310px;
+    max-height: 437px;
+    min-width: 230px;
+    min-height: 300px;
+    background: var(--azul-marinho-envelhecido);
+    box-shadow: 15px 15px 4px var(--amarelo-sombra);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    /* padding: 1rem; */
+    color: var(--branco);
+}
+
+.contato__caixa_form ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato__caixa_form li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contato__label {
+    text-align: left;
+    font-size: 0.87rem;
+    /* display: block; */
+    font-weight: 600;
+    margin-top: 0.9rem;
+}
+
+.contato__label:nth-child(1) {
+    margin-top: 1.5rem;
+}
+
+.contato__input_form {
+    border: none;
+    width: 100%;
+    max-width: 245px;
+    min-width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    font-family: var(--font-noto-sans);
+    margin-top: 0.7rem;
+}
+
+.contato__textarea {
+    resize: none;
+    width: 100%;
+    max-width: 245px;
+    max-height: 135px;
+    min-width: 210px;
+    min-height: 97px;
+    border-radius: 20px;
+    font-family: var(--font-noto-sans);
+    margin: 0.7rem 0 1rem 0;
+}
+
+.contato__botao_form{
+    background: var(--verde-agua);
+    font-family: var(--font-noto-sans);
+    color: var(--branco);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 220px;
+    min-width: 150px;
+    height: 30px;
+    border: none;
+    margin-bottom: 1.2rem;
+}
