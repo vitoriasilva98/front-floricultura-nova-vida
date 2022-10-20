@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background: var(--azul-marinho-mobile);
+    /* background: var(--azul-marinho-mobile); */
     color: var(--branco);
     box-sizing: border-box;
     display: flex;
@@ -9,10 +9,10 @@ header {
     padding-top: .75rem;
     padding-bottom: .75rem;
     border-bottom: 1px solid var(--barra-mobile);
-    /* position: absolute; */
+    position: absolute;
 }
 
-.inicio__logo{
+.inicio__logo {
     vertical-align: middle;
     margin: 2.5rem 0;
 }
@@ -23,7 +23,7 @@ header {
     display: inline;
 }
 
-.inicio__logo_img{
+.inicio__logo_img {
     width: 1.5rem;
     margin-left: 5px;
 }
@@ -44,11 +44,28 @@ header {
 }
 
 @media screen and (max-width: 287px) {
-    .inicio__logo_img{
+    .inicio__logo_img {
         width: 1.2rem;
     }
 
     .inicio__logo_h1 {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        /* background-image: linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)), url("../img/header-hortensias.jpg");
+        background-size: cover; */
+        border-bottom: none;
+    }
+
+    .inicio__logo_h1 {
+        font-size: 32px;
+    }
+
+    .inicio__logo_img {
+        width: 2rem;
     }
 }

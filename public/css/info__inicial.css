@@ -6,14 +6,14 @@
     font-family: var(--font-noto-sans);
     color: var(--branco);
     text-align: center;
-    
+
     background: var(--azul-marinho-mobile);
 
-    /* padding-top: 12.25rem; */
-    /* padding-bottom: 2.5rem; */
+    padding-top: 10.25rem;
+    padding-bottom: 1rem;
 }
 
-.info_inicial_chamaris{
+.info_inicial_chamaris {
     padding-top: 1.5rem;
     font-family: var(--font-lobster);
     font-size: 1.7rem;
@@ -25,7 +25,7 @@
     line-height: 21px;
     font-style: normal;
     margin: 1.2rem auto 1.7rem;
-    max-width: 420px;
+    max-width: 450px;
 }
 
 .info__inicial_botao {
@@ -39,4 +39,18 @@
     border: 1px solid var(--branco);
     border-radius: 30px;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 320px) {
+    .info__incial {
+        padding-top: 14.25rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .info__incial {
+        background-image: linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)), url("../img/header-hortensias.jpg");
+        background-size: cover;
+    }
 }

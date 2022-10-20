@@ -7,7 +7,7 @@
     font-family: var(--font-noto-sans);
 }
 
-.desconto__descricao{
+.desconto__descricao {
     margin: 2.5rem 0 2rem;
     font-size: 1.2rem;
     line-height: 23px;
@@ -19,7 +19,7 @@
     font-weight: 700;
 }
 
-.desconto__informativo{
+.desconto__informativo {
     display: flex;
     min-width: 220px;
     min-height: 141.94px;
@@ -28,7 +28,7 @@
     background: var(--azul-marinho-envelhecido);
     box-shadow: 12px 15px 4px var(--amarelo-sombra);
     border-radius: 20px;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
     font-size: 1.1rem;
 }
 
@@ -39,14 +39,14 @@
     line-height: 23px;
 }
 
-.desconto__b_white{
+.desconto__b_white {
     color: var(--branco);
     font-weight: 800;
     display: block;
     font-size: 1.4rem;
 }
 
-.desconto__b_green{
+.desconto__b_green {
     color: var(--verde-agua);
     font-weight: 800;
 }
@@ -59,3 +59,38 @@
     color: var(--branco);
 }
 
+@media screen and (min-width: 768px) {
+    .desconto {
+        flex-direction: row;
+        align-items: center;
+        align-content: space-between;
+        /* padding-bottom: 0.5rem; */
+    }
+
+    .desconto__descricao {
+        text-align: left;
+        max-width: 203px;
+        padding-bottom: 1.7rem;
+    }
+
+    .desconto__informativo {
+        min-width: 190px;
+        min-height: 122.58px;
+        max-width: 190px;
+        max-height: 122.58px;
+        
+    }
+
+    .desconto__informativo p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    .desconto__b_white {
+        font-size: 1.2rem;
+    }
+
+    .desconto__b_green {
+        font-size: 1rem;
+    }
+}
