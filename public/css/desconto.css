@@ -5,6 +5,7 @@
     text-align: center;
     background: var(--cor-bege);
     font-family: var(--font-noto-sans);
+    justify-content: space-around;
 }
 
 .desconto__descricao {
@@ -28,7 +29,7 @@
     background: var(--azul-marinho-envelhecido);
     box-shadow: 12px 15px 4px var(--amarelo-sombra);
     border-radius: 20px;
-    /* margin-bottom: 2.5rem; */
+    margin-bottom: 2.5rem;
     font-size: 1.1rem;
 }
 
@@ -64,7 +65,7 @@
         flex-direction: row;
         align-items: center;
         align-content: space-between;
-        /* padding-bottom: 0.5rem; */
+        padding-bottom: 1rem;
     }
 
     .desconto__descricao {
@@ -78,7 +79,7 @@
         min-height: 122.58px;
         max-width: 190px;
         max-height: 122.58px;
-        
+        margin-bottom: 0;
     }
 
     .desconto__informativo p {
